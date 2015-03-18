@@ -1,0 +1,232 @@
+2015-03-04 16:18:06 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/home
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 16:18:15 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/home/index
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 16:27:19 Error: [MissingViewException] View file "Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\index.ctp',
+)
+Request URL: /ETUR/pages/index
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\View\View.php(470): View->_getViewFileName('index')
+#1 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(959): View->render('index', NULL)
+#2 C:\wamp\www\ETUR\app\Controller\PagesController.php(68): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-03-04 16:38:08 Error: [MissingViewException] View file "Pages\contacto.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\contacto.ctp',
+)
+Request URL: /ETUR/pages/contacto
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\View\View.php(470): View->_getViewFileName('contacto')
+#1 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(959): View->render('contacto', NULL)
+#2 C:\wamp\www\ETUR\app\Controller\PagesController.php(68): Controller->render('contacto')
+#3 [internal function]: PagesController->display('contacto')
+#4 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-03-04 16:46:46 Error: [MissingControllerException] Controller class ContactoController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactoController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/contacto
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 17:03:33 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /ETUR/pages/contacto
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-11 15:36:25 Error: [MissingControllerException] Controller class EturController could not be found.
+Exception Attributes: array (
+  'class' => 'EturController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/etur/
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 15:36:44 Error: [MissingControllerException] Controller class EturController could not be found.
+Exception Attributes: array (
+  'class' => 'EturController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/etur/admin
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 15:37:19 Error: [MissingControllerException] Controller class ETURController could not be found.
+Exception Attributes: array (
+  'class' => 'ETURController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/ETUR/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 15:38:33 Error: [MissingControllerException] Controller class ETURController could not be found.
+Exception Attributes: array (
+  'class' => 'ETURController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/ETUR/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 15:38:57 Error: [MissingControllerException] Controller class ETURController could not be found.
+Exception Attributes: array (
+  'class' => 'ETURController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/ETUR/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 15:40:06 Error: [MissingControllerException] Controller class ETURController could not be found.
+Exception Attributes: array (
+  'class' => 'ETURController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/ETUR/favicon.ico
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-11 15:46:58 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index/Post
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:47:11 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index/Post
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:47:17 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index/
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:47:24 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:47:57 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:51:45 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\ETUR\lib\Cake\Utility\ClassRegistry.php, line 186]
+2015-03-11 15:51:45 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /ETUR/admin/contents/index
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\ETU...', 186)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\ETU...', 186, Array)
+#2 C:\wamp\www\ETUR\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\ETU...', 186, Array)
+#3 C:\wamp\www\ETUR\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-11 15:51:53 Error: Fatal Error (1): Class 'AppModel' not found in [C:\wamp\www\ETUR\lib\Cake\Utility\ClassRegistry.php, line 186]
+2015-03-11 15:51:53 Error: [FatalErrorException] Class 'AppModel' not found
+Request URL: /ETUR/admin/contents/index
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\ETU...', 186)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppModel...', 'C:\\wamp\\www\\ETU...', 186, Array)
+#2 C:\wamp\www\ETUR\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AppModel...', 'C:\\wamp\\www\\ETU...', 186, Array)
+#3 C:\wamp\www\ETUR\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-11 15:52:22 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:52:27 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index/pages
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:52:36 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/pages
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-11 15:55:15 Error: [NotFoundException] Model does not exists
+Request URL: /ETUR/admin/contents/index/Post
+Stack Trace:
+#0 [internal function]: ContentsController->beforeFilter(Object(CakeEvent))
+#1 C:\wamp\www\ETUR\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#2 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(676): CakeEventManager->dispatch(Object(CakeEvent))
+#3 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(189): Controller->startupProcess()
+#4 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ContentsController), Object(CakeRequest))
+#5 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

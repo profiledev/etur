@@ -1,0 +1,68 @@
+2015-03-04 16:18:06 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/home
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 16:18:15 Error: [MissingControllerException] Controller class HomeController could not be found.
+Exception Attributes: array (
+  'class' => 'HomeController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/home/index
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 16:27:19 Error: [MissingViewException] View file "Pages\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\index.ctp',
+)
+Request URL: /ETUR/pages/index
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\View\View.php(470): View->_getViewFileName('index')
+#1 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(959): View->render('index', NULL)
+#2 C:\wamp\www\ETUR\app\Controller\PagesController.php(68): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-03-04 16:38:08 Error: [MissingViewException] View file "Pages\contacto.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Pages\\contacto.ctp',
+)
+Request URL: /ETUR/pages/contacto
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\View\View.php(470): View->_getViewFileName('contacto')
+#1 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(959): View->render('contacto', NULL)
+#2 C:\wamp\www\ETUR\app\Controller\PagesController.php(68): Controller->render('contacto')
+#3 [internal function]: PagesController->display('contacto')
+#4 C:\wamp\www\ETUR\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-03-04 16:46:46 Error: [MissingControllerException] Controller class ContactoController could not be found.
+Exception Attributes: array (
+  'class' => 'ContactoController',
+  'plugin' => NULL,
+)
+Request URL: /ETUR/contacto
+Stack Trace:
+#0 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 17:03:33 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /ETUR/pages/contacto
+Stack Trace:
+#0 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\wamp\www\ETUR\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\wamp\www\ETUR\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
